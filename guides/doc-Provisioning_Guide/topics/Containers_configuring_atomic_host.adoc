@@ -33,7 +33,7 @@ Use either TCP port 2375 or 2376 for the connection. {ProjectServer} contains ce
 +
 [options="nowrap" subs="+quotes"]
 ----
-$ curl http://satellite.example.com/pub/katello-server-ca.crt \
+$ curl http://{foreman.example.com}/pub/katello-server-ca.crt \
 -o /etc/pki/ca-trust/source/anchors/katello-server-ca.crt
 $ update-ca-trust
 ----
